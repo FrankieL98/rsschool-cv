@@ -1,10 +1,7 @@
 # Yanina Vrubleuskaya
-************
 
 
 ## Contacts
-===========
-
 * **Location:** Gdansk, Poland
 * **Phone:** +48 518 112 421
 * **E-mail:** vryblevskaya8@gmail.com
@@ -14,8 +11,6 @@
 
 
 ## About Me
-===========
-
 As someone without a formal degree in computer science, I have instead pursued my passion for web development through a series of online courses, online schools and personal projects. Through this self-directed approach, I have gained a solid foundation in HTML, CSS, JavaScript. I am confident in my ability to design and develop intuitive and responsive websites that meet high standards of performance and accessibility. Also, I have strong skills of using Git and Figma.
 
 
@@ -26,8 +21,6 @@ In addition to my technical skills, I am committed to writing clean and efficien
 
 
 ## Skills
-==========
-
 * HTML
 * CSS/SASS
 * JavaScript (Basic)
@@ -37,8 +30,6 @@ In addition to my technical skills, I am committed to writing clean and efficien
 
 
 ## Code Example
-==========
-
 ```
 function multiply(a, b){
   return a * b;
@@ -49,14 +40,10 @@ console.log(result);
 ```
 
 ## Experience
-==========
-
 [Lionic Landing Page](https://github.com/FrankieL98/LionicLanding.git "Link to my project") - [HTML](https://github.com/FrankieL98/LionicLanding/blob/main/index.html ""), [CSS](https://github.com/FrankieL98/LionicLanding/blob/main/css/style.css ""), PixelPerfect
 
 
 ## Education
-==========
-
 * **University:** Belarusian State Technological University, Department of Tourism, Nature Management and Hunting
 * **Courses:** 
     + [FreeCodeCamp](https://www.freecodecamp.org/ "Link to FreeCadeCamp main page")
@@ -64,8 +51,4 @@ console.log(result);
 
 
 ## English
-==========
-
 **B1**
-
-
