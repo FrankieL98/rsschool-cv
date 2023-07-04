@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Comme", "Lucida Sans Unicode", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  background-color: #f1f0f0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+*:focus {
+  outline-color: #ae4545;
+}
+
+.container {
+  max-width: 1197px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+
+.header {
+  padding: 10px 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo*/
+
+.header__link {
+  display: flex;
+  justify-content: center;
+}
+
+.header__logo {
+  width: 60px;
+}
+
+/* Navigation */
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  padding: 0 20px;
+}
+
+.nav__item:last-child {
+  padding-left: 20px;
+}
+
+.nav__link{
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #222;
+  transition: all .2s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #ff6464;
+}
+
+/* Hero */
