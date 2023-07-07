@@ -10,6 +10,9 @@
     svg:hover g g path {
       fill: #e0d160;
     }
+    svg {
+      cursor: pointer;
+    }
   </style>
   <title>rs_school</title>
   <g data-name="Layer 2">
