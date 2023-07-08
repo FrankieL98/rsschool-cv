@@ -59,7 +59,6 @@
             <p class="about__descr">You can send me a message in <a class="about__link" href="https://msngr.link/tg/frankie9796" target="_blank">Telegram</a></p>
           </div>
           <img class="about__pets-photo" src="./assets/img/about/animals.jpg" alt="Pets">
-          </figure>
         </div>
       </div>
     </section>
@@ -73,35 +72,30 @@
               <span class="scale-card__circle-value">90%</span>
             </div>
             <h4 class="scale-card__title">HTML&CSS</h4>
-            <p class="scale-card__description">Что-нибудь о моих знаниях</p>
           </li>
           <li class="skills__item scale-card">
             <div class="scale-card__circle scale-card__circle-js">
               <span class="scale-card__circle-value">50%</span>
             </div>
             <h4 class="scale-card__title">JS</h4>
-            <p class="scale-card__description">Что-нибудь о моих знаниях</p>
           </li>
           <li class="skills__item scale-card">
             <div class="scale-card__circle scale-card__circle-sass-scss">
               <span class="scale-card__circle-value">90%</span>
             </div>
             <h4 class="scale-card__title">SASS/SCSS</h4>
-            <p class="scale-card__description">Что-нибудь о моих знаниях</p>
           </li>
           <li class="skills__item scale-card">
             <div class="scale-card__circle scale-card__circle-git">
               <span class="scale-card__circle-value">75%</span>
             </div>
             <h4 class="scale-card__title">GIT</h4>
-            <p class="scale-card__description">Что-нибудь о моих знаниях</p>
           </li>
           <li class="skills__item scale-card">
             <div class="scale-card__circle scale-card__circle-figma">
               <span class="scale-card__circle-value">80%</span>
             </div>
             <h4 class="scale-card__title">Figma</h4>
-            <p class="scale-card__description">Что-нибудь о моих знаниях</p>
           </li>
         </ul>
       </div>
@@ -123,10 +117,20 @@
         <h2 class="section__title works__title">My projects</h2>
         <ul class="works__list">
           <li class="works__item">
-            <a class="works__link" href="https://frankiel98.github.io/rsschool-cv/cv">My CV from first task RSS</a>
+            <a class="works__link" href="https://frankiel98.github.io/rsschool-cv/cv">
+              <figure>
+                <img class="works__img" src="./assets/img/works/first-cv.png" alt="screenshot of the first cv" height="250">
+                <figcaption>My CV from the first task</figcaption>
+              </figure>
+            </a>
           </li>
           <li class="works__item">
-            <a class="works__link" href="https://frankiel98.github.io/rsschool-cv/cv">And CV from this task</a>
+            <a class="works__link" href="#">
+              <figure>
+                <img class="works__img" src="./assets/img/works/new-cv.png" alt="screenshot of this page" height="250">
+                <figcaption>And CV from this task</figcaption>
+              </figure>
+            </a>
           </li>
         </ul>
       </div>
@@ -172,51 +176,38 @@
   <footer class="footer" id="contacts">
 
     <div class="container footer__container">
-      <div class="footer__wrapper">
-        <a class="footer__logo" href="https://rs.school/">
-          <object type="image/svg+xml" data="./assets/img/footer/rs_school.svg">
-            Your browser does not support SVG
-          </object>
+      <a class="footer__logo" href="https://rs.school/"><img src="./assets/img/footer/rsschool.png" alt="RSSchool Logo" width="150"></a>
+      <time class="footer__date" datetime="2023">©2023</time>
+      <ul class="footer__list contacts__list">
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://www.linkedin.com/in/yanina-vrubleuskaya/">
+            <object type="image/svg+xml" data="./assets/img/contacts/linkedin.svg">
+              Your browser does not support SVG
+            </object>
         </a>
-        <ul class="footer__list contacts__list">
-          <li class="contacts__item">
-            <a class="contacts__link" href="https://www.linkedin.com/in/yanina-vrubleuskaya/">
-              <object type="image/svg+xml" data="./assets/img/contacts/linkedin.svg">
-                Your browser does not support SVG
-              </object>
-          </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="https://github.com/FrankieL98/">
-              <object type="image/svg+xml" data="./assets/img/contacts/github.svg">
-                Your browser does not support SVG
-              </object>
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="mailto:vryblevskaya8@gmail.com">
-              <object type="image/svg+xml" data="./assets/img/contacts/gmail.svg">
-                Your browser does not support SVG
-              </object>
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__link" href="tel:+48518112421">
-              <object type="image/svg+xml" data="./assets/img/contacts/phone.svg">
-                Your browser does not support SVG
-              </object>
-            </a>
-          </li>
-        </ul>
-        <div class="footer__additional-info">
-          <a class="footer__link" href="https://github.com/FrankieL98">
-            <object type="image/svg+xml" data="./assets/img/footer/github-footer.svg">
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://github.com/FrankieL98/">
+            <object type="image/svg+xml" data="./assets/img/contacts/github.svg">
               Your browser does not support SVG
             </object>
           </a>
-        </div>
-      </div>
-      <time class="footer__date" datetime="2023">©2023</time>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="mailto:vryblevskaya8@gmail.com">
+            <object type="image/svg+xml" data="./assets/img/contacts/gmail.svg">
+              Your browser does not support SVG
+            </object>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="tel:+48518112421">
+            <object type="image/svg+xml" data="./assets/img/contacts/phone.svg">
+              Your browser does not support SVG
+            </object>
+          </a>
+        </li>
+      </ul>
     </div>
 
   </footer>
