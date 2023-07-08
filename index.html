@@ -3,8 +3,214 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Yanina Vrubleuskaya CV</title>
 </head>
+
 <body>
+
+  <header class="header">
+    <div class="container header__container">
+      <a class="header__link" href="#"><img class="header__logo" src="./assets/img/my-logo.svg" alt="Logo from Frankie"></a>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#about">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#skills">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#works">My Works</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#education">Education</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__info">
+          <h1 class="hero__title">Hi, my name is Yana</h1>
+          <span class="hero__title-position">I am junior front-end developer</span>
+          <a class="hero__button" href="./assets/files/cv-frontend-dev-yanina-vrubleuskaya.pdf" download>Download Resume</a>
+        </div>
+        <img class="hero__photo" src="./assets/img/hero/my-photo.png" alt="My photo">
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section__title about__title">A little bit about me...</h2>
+        <div class="about__info">
+          <div class="about__text">
+            <p class="about__descr">Hello there! I’m a junior front-end developer with a passion for building intuitive and visually appealing websites. Even though I don’t have any commercial experience yet, I’ve gained a wealth of knowledge in HTML, CSS, JavaScript, Git, Figma and through various personal projects and online courses.</p>
+            <p class="about__descr">Apart from that, I like cats &#128008;, dogs &#128054; and all animals in generel &#128062;. I like walking &#128378;, cycling &#128692;, puzzles &#129513;, board games &#127922;. I am hyper active and hyper social &#128522;</p>
+            <p class="about__descr">You can send me a message in <a class="about__link" href="https://msngr.link/tg/frankie9796" target="_blank">Telegram</a></p>
+          </div>
+          <img class="about__pets-photo" src="./assets/img/about/animals.jpg" alt="Pets">
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section__title skills__title">My professional skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item scale-card">
+            <div class="scale-card__circle scale-card__circle-html-css">
+              <span class="scale-card__circle-value">90%</span>
+            </div>
+            <h4 class="scale-card__title">HTML&CSS</h4>
+          </li>
+          <li class="skills__item scale-card">
+            <div class="scale-card__circle scale-card__circle-js">
+              <span class="scale-card__circle-value">50%</span>
+            </div>
+            <h4 class="scale-card__title">JS</h4>
+          </li>
+          <li class="skills__item scale-card">
+            <div class="scale-card__circle scale-card__circle-sass-scss">
+              <span class="scale-card__circle-value">90%</span>
+            </div>
+            <h4 class="scale-card__title">SASS/SCSS</h4>
+          </li>
+          <li class="skills__item scale-card">
+            <div class="scale-card__circle scale-card__circle-git">
+              <span class="scale-card__circle-value">75%</span>
+            </div>
+            <h4 class="scale-card__title">GIT</h4>
+          </li>
+          <li class="skills__item scale-card">
+            <div class="scale-card__circle scale-card__circle-figma">
+              <span class="scale-card__circle-value">80%</span>
+            </div>
+            <h4 class="scale-card__title">Figma</h4>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="code">
+      <div class="container">
+        <h2 class="section__title code__title">My code in Js(example)</h2>
+        <code class="code__example">
+          function noBoringZeros(n) {<br>
+            &nbsp;return Number(n.toString().replace(/0+$/, ''));<br>
+          }
+        </code>
+      </div>
+    </section>
+
+    <section class="works" id="works">
+      <div class="container">
+        <h2 class="section__title works__title">My projects</h2>
+        <ul class="works__list">
+          <li class="works__item">
+            <a class="works__link" href="https://frankiel98.github.io/rsschool-cv/cv">
+              <figure>
+                <img class="works__img" src="./assets/img/works/first-cv.png" alt="screenshot of the first cv" height="250">
+                <figcaption>My CV from the first task</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="works__item">
+            <a class="works__link" href="#">
+              <figure>
+                <img class="works__img" src="./assets/img/works/new-cv.png" alt="screenshot of this page" height="250">
+                <figcaption>And CV from this task</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="container">
+        <h2 class="section__title education__title">My frontend path</h2>
+        <div class="education__items">
+          <a class="education__link" href="https://htmlacademy.ru/profile/id2376123" title="Switch to HTMLAcademy" target="_blank"><img class="education__img" src="./assets/img/education/htmlacademy.png" alt="HTMLAcademy logo"></a>
+          <a class="education__link  education__link--big" href="https://rs.school/" title="Switch to RSSchool" target="_blank"><img class="education__img" src="./assets/img/education/rsschool.png" alt="RSSchool logo"></a>
+          <a class="education__link" href="https://skillbox.ru/" title="Switch to Skillbox" target="_blank"><img class="education__img" src="./assets/img/education/skillbox.png" alt="Skillbox logo"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="languages" id="languages">
+      <div class="container">
+        <h2 class="section__title languages__title">Languages I speak</h2>
+        <ul class="languages__list">
+          <li class="languages__item">
+            <img class="languages__img" src="./assets/img/languages/russian.png" alt="Russian flag" width="250" height="150">
+            <span class="languages__text">Russian(Native)</span>
+          </li>
+          <li class="languages__item">
+            <img class="languages__img" src="./assets/img/languages/belarusian.jpg" alt="Belarusian flag" width="250" height="150">
+            <span class="languages__text">Belarusian(Native)</span>
+          </li>
+          <li class="languages__item">
+            <img class="languages__img" src="./assets/img/languages/polish.png" alt="Polish flag" width="250" height="150">
+            <span class="languages__text">Polish(B2)</span>
+          </li>
+          <li class="languages__item">
+            <img class="languages__img" src="./assets/img/languages/uk.png" alt="UK flag" width="250" height="150">
+            <span class="languages__text">English(B1)</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contacts">
+
+    <div class="container footer__container">
+      <a class="footer__logo" href="https://rs.school/"><img src="./assets/img/footer/rsschool.png" alt="RSSchool Logo" width="150"></a>
+      <time class="footer__date" datetime="2023">©2023</time>
+      <ul class="footer__list contacts__list">
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://www.linkedin.com/in/yanina-vrubleuskaya/">
+            <object type="image/svg+xml" data="./assets/img/contacts/linkedin.svg">
+              Your browser does not support SVG
+            </object>
+        </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://github.com/FrankieL98/">
+            <object type="image/svg+xml" data="./assets/img/contacts/github.svg">
+              Your browser does not support SVG
+            </object>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="mailto:vryblevskaya8@gmail.com">
+            <object type="image/svg+xml" data="./assets/img/contacts/gmail.svg">
+              Your browser does not support SVG
+            </object>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="tel:+48518112421">
+            <object type="image/svg+xml" data="./assets/img/contacts/phone.svg">
+              Your browser does not support SVG
+            </object>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
 </body>
 </html>
